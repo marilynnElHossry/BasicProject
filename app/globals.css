@@ -25,3 +25,44 @@ body {
     text-wrap: balance;
   }
 }
+
+/* toastify */
+.Toastify__toast--error.Toastify__toast {
+  color: red !important;
+}
+
+.Toastify__toast--success.Toastify__toast {
+  color: green !important;
+}
+.Toastify__toast--warning.Toastify__toast {
+  color: yellow !important;
+}
+.Toastify__toast-body {
+  font-size: 0.9rem;
+}
+
+.Toastify__toast--error.Toast__progress_bar {
+  background-color: red !important;
+}
+
+.Toastify__progress-bar--success {
+  background-color: green !important;
+}
+
+.Toastify__progress-bar--error {
+  background: red !important;
+}
+.Toastify__progress-bar--warning {
+  background: yellow !important;
+}
+
+.Toastify__toast--error .Toastify__toast-icon svg {
+  fill: red;
+}
+.Toastify__toast--success .Toastify__toast-icon svg {
+  fill: green;
+}
+.Toastify__toast--warning .Toastify__toast-icon svg {
+  fill: yellow;
+}
+/* end toastify */

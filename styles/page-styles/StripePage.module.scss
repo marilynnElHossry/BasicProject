@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+
+  .content {
+    background-color: white;
+    border: 1px solid #f9c9c5;
+    box-shadow: 0px 0.6074240803718567px 17.00787353515625px 0px #0000001f;
+    border-radius: 10px;
+    padding: 30px 50px;
+    max-width: 550px;
+    width: 100vw;
+  }
+}
